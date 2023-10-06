@@ -1,0 +1,59 @@
+
+div{
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.home{
+    font-size: small;
+    padding-right: 10px;
+}
+
+a{
+    color: gray;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.Dropdown{
+    border: none;
+    color: grey;
+    background-color: black;
+    padding-right: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Disabled{
+    color: grey;
+    padding-right: 85px;
+    font-size: small;
+}
+
+.Search{
+    color: grey;
+    border-radius: 5px; 
+    width: 160px; 
+    height: 25px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: black; 
+    color: green; 
+    border-color: green; 
+    border-radius: 5px; 
+    height: 29px; 
+    border-width: 1px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
