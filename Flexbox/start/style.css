@@ -13,14 +13,13 @@ li{
 }
 
 .sidebar{
-    width: 200px;
-    height: 97vh;
+    display: flex;
+    width: 30vw;
+    height: 100vh;
     background-color: rgba(255, 0, 0, 0.386);
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 .user-avatar{
     text-align: center;
