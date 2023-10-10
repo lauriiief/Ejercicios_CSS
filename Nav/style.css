@@ -5,7 +5,8 @@ div{
 
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
 
     width: 100vw;
     height: 7vh;
@@ -14,8 +15,9 @@ div{
 }
 
 .navbar{
-    padding-right: 15px;
-    padding-left: 10px;
+    /*padding-right: 15px;
+    padding-left: 10px;*/
+    justify-content: flex-start;
 }
 
 .home{
@@ -62,7 +64,6 @@ button{
     border-width: 1px;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
 }
 
 button:hover{
