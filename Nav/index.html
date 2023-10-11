@@ -2,30 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title> NavBar </title>
+    <title>NavBar</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.ico" />
   </head>
   <body>
-    <div>
-            <nav>
-                <span class="navbar">Navbar</span>   
-                <span class="home">Home</span> 
-                <span><a>Link</a></span> 
-                <span>
-                    <select class="Dropdown">
-                        <option value="Dropdown">Dropdown</option>
-                        <option value="Dropdown">Dropdown</option>
-                        <option value="Dropdown">Dropdown</option>
-                    </select> 
-                </span> 
-                <span class="Disabled">Disabled</span>
-                <span><input type="text" placeholder="Search" class="Search"></span>
-                <span>
-                    <button> Search </button>
-                </span>
-            </nav> 
-    </div>  
+    <nav>
+      <!-- Parte izquierda de mi nav -->
+      <div class="links">
+        <span class="navbar">Navbar</span>
+        <span class="home">Home</span>
+        <span><a>Link</a></span>
+        <span>
+          <select class="Dropdown">
+            <option value="Dropdown">Dropdown</option>
+            <option value="Dropdown">Dropdown</option>
+            <option value="Dropdown">Dropdown</option>
+          </select>
+        </span>
+        <span class="Disabled">Disabled</span>
+      </div>
+
+      <!-- Parte derecha de mi nav -->
+      <div class="buttons">
+        <span><input type="text" placeholder="Search" class="Search" /></span>
+        <span>
+          <button>Search</button>
+        </span>
+      </div>
+    </nav>
   </body>
 </html>
