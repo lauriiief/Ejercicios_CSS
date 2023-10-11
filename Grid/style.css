@@ -1,11 +1,12 @@
 
 section{
-    border-radius: 5%;
+    border-radius: 5px;
     border: none;
 }
 
 section.calculator{
     display: grid;
+    gap: 1rem;
     grid-template-columns: 100px 50px;
     grid-template-rows: 50px 100px;
     grid-template-areas: 
@@ -15,20 +16,33 @@ section.calculator{
 
 #first-row{
     grid-area: first-row;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: grid;
+    justify-content: right;
 }
 
 #second-row-sum{
     grid-area: second-row-sum;
+    display: grid;
+    justify-content: right;
 }
 
 #second-row-res{
     grid-area: second-row-res;
+    display: grid;
+    justify-content: right;
 }
 
 #second-row-mul{
     grid-area: second-row-mul;
+    display: grid;
+    justify-content: right;
 }
 
 #second-row-div{
     grid-area: second-row-div;
+    display: grid;
+    justify-content: right;
 }
