@@ -64,8 +64,11 @@ div{
     display: flex;
     flex-direction: column;
 
-    margin-left: 15px;
-    margin-right: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+
+    margin-left: 12px;
+    margin-right: 7px;
 }
 
 @media (max-width: 768px){
