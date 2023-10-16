@@ -4,7 +4,8 @@ article{
     height: 450px;
 
     border-radius: 15px;
-    background-color: bisque;
+    background-image: linear-gradient(#8c887f, #e3e2e1);
+    /*background-color: #8c887f;*/
 
     overflow: hidden;
 }
