@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+
+  color: white;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  height: 7vh;
+}
+
+.navbar{
+    /*padding-right: 15px;
+    padding-left: 10px;*/
+    justify-content: space-between;
+}
+
+.home {
+  font-size: small;
+  /*padding-right: 10px;*/
+}
+
+a {
+  color: gray;
+  /*padding-right: 10px;*/
+  font-size: small;
+}
+
+.Dropdown {
+  border: none;
+  color: grey;
+  background-color: black;
+  /*padding-right: 10px;*/
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Disabled {
+  color: grey;
+  /*padding-right: 85px;*/
+  font-size: small;
+}
+
+.Search {
+  color: grey;
+  border-radius: 5px;
+  width: 160px;
+  height: 25px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: black;
+  color: green;
+  border-color: green;
+  border-radius: 5px;
+  height: 29px;
+  border-width: 1px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+  border-color: white;
+}
+
+.links{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.search{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+
+}
+
