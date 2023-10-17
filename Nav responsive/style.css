@@ -93,3 +93,17 @@ button:hover {
 
 }
 
+.menu{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .menu {
+    display: inline;
+    margin: 5px;    
+  }
+}
